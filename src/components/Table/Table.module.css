@@ -1,0 +1,32 @@
+.column-spacing {
+  @apply flex justify-start items-center;
+}
+.column-spacing > * {
+  /* @apply odd:bg-blue-300 even:bg-red-300; */
+}
+
+.column-spacing > *:nth-child(1) {
+  @apply w-[44.57%];
+}
+
+.column-spacing > *:nth-child(2) {
+  @apply w-[11.18%];
+}
+
+.column-spacing > *:nth-child(3) {
+  @apply w-[9.95%];
+}
+
+.column-spacing > *:nth-child(4) {
+  @apply w-[24.75%];
+}
+.column-spacing > *:nth-child(5) {
+  @apply w-[9.54%];
+}
+
+/**
+ *
+ * 542 * 136 * 121 * 301 * 116 / 1216
+ * 44.57 * 11.18 * 9.95 * 24.75 * 9.54
+ *
+ */
